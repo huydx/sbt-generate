@@ -5,6 +5,8 @@
 
 %w(
   base
+  config
+  executor
 ).each {|file| require_dependency File.expand_path("../generator/#{file}", __FILE__)}
 
 module Sbt

@@ -1,0 +1,14 @@
+orginization: "huydx.com"
+libraries:
+  Akka:
+    name: 'Akka'
+    artifact: ''
+    version: '2.3.11'
+  AkkaStreamV:
+    name: 'AkkaStreamV'
+    artifact: ''
+    version: '1.0-RC4'
+  Scala:
+    name: 'Scala'
+    artifact: ''
+    version: '2.11.5'
