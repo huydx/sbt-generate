@@ -8,9 +8,9 @@ module Sbt
 
       def initialize(config)
         @config = config
-        @project_name = config["project_name"]
-        @organization_name = config["organization_name"]
-        @libraries = config["libraries"]
+        @project_name = config["project_name"] || "my project"
+        @organization_name = config["organization_name"] || "some organization"
+        @libraries = config["libraries"] || []
       end
 
       def get_binding

@@ -28,7 +28,7 @@ module Sbt
       private
 
       def location
-        "#{@dest}/#{@config[:project_name]}"
+        "#{@dest}/#{@config.project_name}"
       end
 
       def create_dir
