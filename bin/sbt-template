@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+# coding: utf-8
+#
+
+print "\e[31m"
+puts %q{sbt generator}
+print "\e[0m"
+
+require '../lib/sbt/generator.rb'
+Sbt::Generator.start!(ARGV)

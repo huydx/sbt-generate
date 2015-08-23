@@ -1,0 +1,5 @@
+object Versions {
+  <% @versions.each do |version| %>
+    val <%= version.name %> = "<%= version.version %>"
+  <% end %>
+}
